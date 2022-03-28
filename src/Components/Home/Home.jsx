@@ -38,7 +38,7 @@ const getData=()=>{
       //   }) // Filter on the basis of Users interests and location (both true)
         .map((el) => {
           return (
-            <Link to={`add route here`} className="events">
+            <Link to={`/meetup/${el.id}`} className="events">
               {/* add your children here (divs)
               ex : title, theme, description, date, time, location, image(optional)
               the classNames should be also : title, theme, description, date, time, location, image(optional)
