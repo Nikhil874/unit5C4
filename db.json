@@ -1,0 +1,93 @@
+{
+  "meetups": [
+    {
+      "id": 1,
+      "title": "Saunter Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://addicted2success.com/wp-content/uploads/2018/06/8-Reasons-You-Should-Join-a-Meetup-Group-Today.jpg"
+    },
+    {
+      "id": 2,
+      "title": "aaaaaaaa",
+      "location": "kolkata",
+      "date": "2022-03-24",
+      "time": "23:59",
+      "theme": "food",
+      "description": "Random Event",
+      "image": "https://images.unsplash.com/photo-1576085898323-218337e3e43c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVldHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+    },
+    {
+      "id": 3,
+      "title": "bbbbbbbb",
+      "location": "delhi",
+      "date": "2022-03-22",
+      "time": "23:59",
+      "theme": "culture",
+      "description": "Random Event",
+      "image": "https://image.shutterstock.com/image-vector/meet-on-speech-bubble-260nw-1618832668.jpg"
+    },
+    {
+      "id": 4,
+      "title": "cccccc",
+      "location": "mumbai",
+      "date": "2022-03-21",
+      "time": "23:59",
+      "theme": "art",
+      "description": "Random Event",
+      "image": "https://image.shutterstock.com/image-vector/meet-on-speech-bubble-260nw-1618832668.jpg"
+    }
+  ],
+  "users": [
+    {
+      "name": "nikhil",
+      "password": "",
+      "location": "bangalore",
+      "interests": [
+        "art"
+      ],
+      "image": "",
+      "": "fghzd",
+      "id": 1
+    },
+    {
+      "name": "nikhil",
+      "password": "",
+      "location": "bangalore",
+      "interests": [
+        "art",
+        "movies",
+        "culture"
+      ],
+      "image": "",
+      "": "fghzd",
+      "id": 2
+    },
+    {
+      "name": "jeevan",
+      "password": "",
+      "location": "bangalore",
+      "interests": [
+        "technology"
+      ],
+      "image": "",
+      "": "sDa",
+      "id": 3
+    },
+    {
+      "name": "jeevan",
+      "password": "1234",
+      "location": "bangalore",
+      "interests": [
+        "movies",
+        "food"
+      ],
+      "image": "",
+      "": "zdfs",
+      "id": 4
+    }
+  ]
+}
