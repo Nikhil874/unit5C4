@@ -6,7 +6,7 @@
       "location": "bangalore",
       "date": "2022-03-25",
       "time": "23:59",
-      "theme": "technology",
+      "theme": "food",
       "description": "Random Event",
       "image": "https://addicted2success.com/wp-content/uploads/2018/06/8-Reasons-You-Should-Join-a-Meetup-Group-Today.jpg"
     },
@@ -79,6 +79,26 @@
       "description": "zcfh",
       "image": "cfh",
       "id": 8
+    },
+    {
+      "title": "Technology",
+      "location": "bangalore",
+      "date": "2022-03-31",
+      "time": "16-12",
+      "theme": "technology",
+      "description": "About React.js",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "id": 9
+    },
+    {
+      "title": "gfyugfyu",
+      "location": "bangalore",
+      "date": "zfas",
+      "time": "sdA",
+      "theme": "technology",
+      "description": "zc",
+      "image": "zx",
+      "id": 10
     }
   ],
   "users": [

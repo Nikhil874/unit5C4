@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom";
 export const Event = () => {
   let {id}=useParams();
 let[data,setData]=useState({});
+const [sub,setSub]=useState(false);
 useEffect(()=>{
 geteventData()
 },[])
@@ -15,9 +16,11 @@ const geteventData=()=>{
   setData(res.data);
   })
 }
-const [sub,setSub]=useState(false);
+// const [sub,setSub]=useState(false);
 const handleClick=(value)=>{
-  setSub(!value);
+  // console.log(value?"true":"false")
+  setSub(value?false:true);
+  console.log(sub);
 }
   return (
     <div className="eventContainer">

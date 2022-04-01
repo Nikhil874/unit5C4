@@ -7,6 +7,7 @@ export const Home = () => {
   const user=useSelector((store)=>store.user);
   const userobj=JSON.parse(localStorage.getItem("userLoginDetails"))
   console.log("home",userobj)
+  // console.log("arr",userobj.interests)
   let toggle;
   if(userobj==null){
     toggle=false;
@@ -25,17 +26,28 @@ const getData=()=>{
 }
   return (
     <div className="homeContainer">
-      <div className="flex">
+      <div className="flex" >
       {data
-      //   .filter((el) => { 
-      //     if(userobj!==null){
-      //       if(userobj.intrests.includes(...el.intrests)){
-      //         return true;
-      //       }
-      //     }
-      //  return true;
+        .filter((el) => { 
+          // console.log(el.interests)
+          if(userobj==null){
+            return true;
+          }
+            if(userobj.interests.includes(el.theme)){
+              return true;
+            }
+          }
+       
 
-      //   }) // Filter on the basis of Users interests and location (both true)
+        ).filter((e)=>{
+          if(userobj==null){
+            return true;
+          }
+          if(userobj.location==e.location){
+            return true;
+          }
+
+        }) // Filter on the basis of Users interests and location (both true)
         .map((el) => {
           return (
             <Link to={`/meetup/${el.id}`} className="events">

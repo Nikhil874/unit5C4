@@ -14,6 +14,7 @@ export const AddMeetup = () => {
     image:"",
   })
   const handleChange=(event)=>{
+    console.log(event.target.value)
     const {id,value}=event.target;
     setData({...data,[id]:value});
   }
