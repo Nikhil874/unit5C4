@@ -148,6 +148,22 @@
       "image": "",
       "": "zdfs",
       "id": 4
+    },
+    {
+      "name": "rishi",
+      "password": "1234",
+      "location": "bangalore",
+      "interests": [
+        "technology",
+        "drama",
+        "art",
+        "culture",
+        "movies",
+        "food"
+      ],
+      "image": "",
+      "": "SDsD",
+      "id": 5
     }
   ]
 }
